@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Weather App</h1>
+
+            <label for="uniType" class="switch">
+                <input type="checkbox" id="uniType" checked />
+                <div class="slider">
+                    <span>Metric</span>
+                </div>
+            </label>
+        </header>
+
+        <form class="search-form">
+            <input 
+                type="text"
+                id="search"
+                placeholder="Enter city, state, or country name"
+                required
+            />
+        </form>
+    </main>
+</body>
+</html>
