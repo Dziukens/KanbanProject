@@ -1,5 +1,5 @@
 
-const API_KEY = "1f0868ad4687f50e1fb0345863ecf1b0";
+const API_KEY = "4ccad5b911a4b882ca4e61237e27b64b";
 const BASE_API_URL = "https://api.openweathermap.org/data/2.5/weather";
 const LANGUAGE = "pl";
 
