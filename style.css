@@ -28,12 +28,15 @@ header h1 {
     width: 30%;
     text-align: right;
     color: #FFCD45;
+    min-width: 130px;
 }
 
 header h2 { 
-    font-size: 2rem;
+    font-size: clamp(1rem, 5vw, 2rem);
     color: #fff;
     text-shadow: 0 4px 8px rgba(0, 0, 0, 0.25); 
+    background: url(./Subtract.png) no-repeat center;
+    padding-top: 50px;
 }
 
 header img { 
@@ -213,11 +216,12 @@ h1 {
     display: flex;
     gap: 1rem;
     width: 100%;
+    align-items: center;;
     justify-content: space-between;
   }
   
   .temp {
-    font-size: 4rem;
+    font-size: clamp(1rem, 10vw, 4rem);
   }
   
   .unit {
