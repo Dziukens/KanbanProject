@@ -133,7 +133,8 @@ h1 {
     border-radius: 10px;
     height: 42px;
     overflow: hidden;
-    width: 65%;
+    max-width: 65%;
+    margin-right: 10px;
 }
 
 .search-form input {
