@@ -15,27 +15,28 @@
 <body>
     <main class="container">
         <header>
-            <h1>Weather App</h1>
-
+            <h1>Beat Masters</h1>
+            <h2>Progoza pogody</h2>
+            <img src="./Subtract.png" />
+        </header>
+        <div class="menu">
+            <form class="search-form">
+                <span class="material-symbols-outlined">Search</span>
+                <input 
+                    type="text"
+                    minlength="1"
+                    id="search"
+                    placeholder="Wpisz miasto"
+                    required
+                />
+            </form>
             <label for="unitType" class="switch">
                 <input type="checkbox" id="unitType" checked />
                 <div class="slider">
-                    <span>Metric</span>
+                    <span>°C</span>
                 </div>
             </label>
-        </header>
-
-        <form class="search-form">
-            <span class="material-symbols-outlined">Search</span>
-            <input 
-                type="text"
-                minlength="1"
-                id="search"
-                placeholder="Podaj miasto, region lub województwo"
-                required
-            />
-        </form>
-
+        </div>
         <section class="grid">
             <div class="grid-item day-time">
 
